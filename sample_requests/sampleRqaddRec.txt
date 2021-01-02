@@ -1,0 +1,14 @@
+{
+    "location": "Mumbai",
+    "date": "20210101",
+    "tithi": "beej",
+    "sunrise": "7:13",
+    "sunset": "6:10",
+    "navkarsi": "8:01",
+    "porsi": "9:57",
+    "sadhporsi": "11:20",
+    "kamlikal": {
+        "morning": "8:49",
+        "evening": "4:35"
+    }
+}
