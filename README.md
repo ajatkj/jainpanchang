@@ -1,6 +1,10 @@
 # jainpanchang-api
 A simple API to return sunrise, sunset, navkarsi, other values as per the Jain Panchang
 
+## Environment
+1. set environment variable `PORT` 
+1. set environment variable `CONNECTION_STRING` for mongodb connection string
+
 ## Provides
 
 1. addRec service as POST request
