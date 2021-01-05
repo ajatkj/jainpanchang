@@ -6,12 +6,11 @@ const PanchangRouter = require('./routes/panchang')
 
 const connectString = process.env.CONNECTION_STRING
 //connection string examples
-//'mongodb://localhost:27017/jainpanchang'  // for local db
+//'mongodb://localhost:27017/jainpanchang'  // local db
 //'mongodb+srv://username:password@clustor0.8yhxn.mongodb.net/jainpanchang' // for mongo-atlas on cloud
 mongoose.connect(connectString + '?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true})
 
 const db = mongoose.connection
-console.log('Testing')
 db.on('error', (err) => {
     console.log(err)
 })
