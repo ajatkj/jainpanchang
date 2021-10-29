@@ -23,3 +23,6 @@ http://host:5006/api/jainpanchang/fetchRec?location=mumbai&date=tomorrow
 http://host:5006/api/jainpanchang/fetchRec?location=mumbai&date=dayafter
 http://host:5006/api/jainpanchang/fetchRec?location=mumbai&date=20210128
 ```
+
+## Note
+Currently only available for Mumbai location
